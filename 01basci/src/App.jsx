@@ -1,5 +1,5 @@
- 
 
+import DigitalClock from "./DigitalClock";
 import ToDoList from "./ToDoList";
 
 
@@ -8,7 +8,7 @@ import ToDoList from "./ToDoList";
 function app() {
   return (
     <>
-    <ToDoList/>
+    <DigitalClock/>
 
     </>
   );

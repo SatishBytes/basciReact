@@ -1,4 +1,4 @@
-body{
+/* body{
   background-color: black;
 }
 
@@ -82,4 +82,29 @@ li{
   padding: 8px 12px;
   font-size: 1.4rem;
   margin-left: 10px; ;
+
+} */
+
+body {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+  margin: 0;
+  text-align: center;
 }
+
+.clock-container {
+  backdrop-filter: blur(10px); 
+  background-color: rgba(255, 255, 255, 0.1); 
+  padding: 20px; 
+  border-radius: 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+
+.clock {
+  font-size: 6rem; 
+  font-weight: bold;
+  color: white;
+  text-align: center; 
