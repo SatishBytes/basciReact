@@ -1,0 +1,85 @@
+body{
+  background-color: black;
+}
+
+.to-do-list {
+  font-family: arial,sans-serif;
+  text-align: center;
+}
+h1{
+  font-size: 4rem;
+  color: white;
+}
+
+button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5 ease;
+}
+
+.add-button{
+  background-color: #4CAF50;
+  margin-left: 25px;
+}
+
+.add-button:hover{
+  background-color: #45a049;
+}
+
+.delete-button{
+  background-color: #f44336;
+}
+
+.delete-button:hover{
+  background-color: #da190b;
+}
+
+.move-button{
+  background-color: #008CBA;
+}
+
+.move-button:hover{
+  background-color: #007a9b;
+}
+
+input[type="text"]{
+  font-size: 1.7rem;
+  padding: 10px;
+  width: 50%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #333;
+}
+
+ol{
+  
+  padding: 0;
+}
+
+li{
+
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px;
+  border: 3px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  display: flex;
+  align-items: center;
+}
+
+.text{
+  flex: 1;
+}
+
+.delete-button , .move-button{
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px; ;
+}
